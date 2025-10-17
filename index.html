@@ -548,11 +548,12 @@
     </footer>
 
     <!-- Grand Opening Banner -->
-    <div class="opening-banner" style="position: fixed; top: 80px; right: 20px; background: linear-gradient(135deg, #d4691a, #f39c12); color: white; padding: 1rem; border-radius: 10px; box-shadow: 0 5px 20px rgba(0,0,0,0.2); z-index: 1000; max-width: 250px; animation: bounce 2s infinite;">
-        <div style="text-align: center;">
-            <div style="font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem;">🎉 NOW OPEN!</div>
-            <div style="font-size: 0.9rem;">Visit us today and get your first coffee FREE!</div>
+    <div class="opening-banner">
+        <div class="banner-content">
+            <div class="banner-title">🎉 NOW OPEN!</div>
+            <div class="banner-text">Visit us today and get your first coffee FREE!</div>
         </div>
+        <button class="banner-close" onclick="this.parentElement.style.display='none'">×</button>
     </div>
 
     <script src="script.js"></script>
